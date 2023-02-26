@@ -32,6 +32,7 @@ export default function Weather() {
     );
   }
 
+  
   function handleSubmit(response) {
     response.preventDefault();
     let apiKey = `5e5c2757f7c28e9aed7d744b591dfdeb`;
