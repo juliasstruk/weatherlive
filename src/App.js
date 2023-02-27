@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Weather from "./Weather";
 
@@ -10,10 +9,10 @@ export default function App() {
      <div className="container">
       <div className="cityss">
         <ul className="hr">
-   <li><a href="#">Lisobon</a></li>
-      <li><a href="#">Paris</a></li>
-   <li><a href="#">Kiev</a></li>
-   <li><a href="#">Berlin</a></li>
+   <li>Lisobon</li>
+      <li>Paris</li>
+   <li>Kiev</li>
+   <li>Berlin</li>
   </ul>
       </div>
       <Weather /> 
